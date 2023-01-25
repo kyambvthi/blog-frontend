@@ -1,3 +1,8 @@
 :root {
-    --border-color-01: rgb(70, 70, 70);
+    /* -- border-colors -- */
+    --border-color-01: rgb(0, 0, 0);
+    --border-color-02: rgb(50, 50, 50);
+    --border-color-04: rgb(100, 100, 100);
+    --border-color-05: rgb(150, 150, 150);
+    --border-color-06: rgb(200, 200, 200);
 }

@@ -1,12 +1,15 @@
 /* -- nav */
 .nav {
     display: block;
+    padding: 4px;
     border: 1px solid var(--border-color-01);
 }
 
 .nav-item {
     display: flex;
     padding: 4px 8px;
+    margin-bottom: 6px;
+    border: 1px solid var(--border-color-04);
 }
 
 .nav-item__media-area {
@@ -15,7 +18,7 @@
     justify-content: center;
     padding: 6px;
     margin-right: 8px;
-    border: 1px solid var(--border-color-01);
+    border: 1px solid var(--border-color-05);
 }
 
 .nav-item__link-area {
@@ -30,5 +33,5 @@
     justify-content: center;
     text-align: center;
     padding: 6px;
-    border: 1px solid var(--border-color-01);
+    border: 1px solid var(--border-color-05);
 }
