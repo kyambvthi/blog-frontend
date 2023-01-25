@@ -1,0 +1,32 @@
+[
+    {
+        "id": "001",
+        "timeCreated": "jan 24 2023, 11:34:20",
+        "updated": "false",
+        "timeUpdated": "null",
+        "authors": ["author_1", "author_2", "author_3"],
+        "context": {
+            "category": "sport/football/ucl",
+            "people": ["cristiano ronaldo", "zinedine zidane"],
+            "location": ["manchester", "madrid"],
+            "things": ["real madrid", "manchester united"],
+            "tags": ["cr7", "mufc", "madrid"]
+        },
+        "assets": {
+            "small": "assets/stories/image80x80px.jpg",
+            "mid": "assets/stories/image160x160px.jpg",
+            "large": "assets/stories/image240x240px.jpg"
+        },
+        "content": {
+            "header": "why cristiano ronaldo is the goat",
+            "teaser": "the case for why he's the greatest of all time",
+            "body": "listen here messi fans a world cup doesn't count",
+        },
+        "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "shares": 0,
+            "clicks": 0
+        }
+    }
+]
