@@ -11,3 +11,5 @@ learn and implement standard best practices using only the bare bone tech
 - no frameworks, vanilla javascript only
 - modular, readable, maintainable CSS3
 - clear and concise HTML5 markup
+
+there should be a way to deploy this but the focus here is on writing easily readable/maintainable code
