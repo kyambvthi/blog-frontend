@@ -39,3 +39,7 @@
     padding: 2px;
     border: 1px solid var(--border-color-05);
 }
+
+.nav-item-label {
+    font-size: 12px;
+} 
