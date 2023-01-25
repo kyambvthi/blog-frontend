@@ -1,23 +1,27 @@
 /* -- nav */
 .nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
     padding: 4px;
-    border: 1px solid var(--border-color-01);
 }
 
 .nav-item {
+    cursor: pointer;
     display: flex;
-    padding: 4px 8px;
+    flex-direction: column;
     margin-bottom: 6px;
+    padding: 4px 8px;
     border: 1px solid var(--border-color-04);
 }
 
 .nav-item__media-area {
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2px;
     padding: 6px;
-    margin-right: 8px;
     border: 1px solid var(--border-color-05);
 }
 
@@ -32,6 +36,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 6px;
+    padding: 2px;
     border: 1px solid var(--border-color-05);
 }

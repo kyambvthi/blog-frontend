@@ -1,0 +1,12 @@
+.header-area {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 100vh;
+    border-right: 1px solid var(--border-color-02);
+}
+
+.header {
+    margin-top: 8px;
+    display: block;
+}
