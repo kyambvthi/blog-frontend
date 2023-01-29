@@ -1,3 +1,37 @@
+/* --border: bd */
 .bd {
+    border: .125px solid var(--border-color-01);
+}
+
+.bd-t1 {
     border: 1px solid var(--border-color-01);
+}
+
+.bd-t2 {
+    border: 1px solid var(--border-color-02);
+}
+
+.bd-t3 {
+    border-top: 1px solid var(--border-color-01)
+}
+
+/* -- padding: pd */
+.pd {
+    padding: .125rem;
+}
+
+.pd- {
+    padding: .25rem;
+}
+
+.pd-5 {
+    padding: .5rem;
+}
+
+.pd-03 {
+    padding: .75rem;
+}
+
+.pd-04 {
+    padding: 1rem;
 }

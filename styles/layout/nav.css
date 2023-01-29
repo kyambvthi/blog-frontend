@@ -1,4 +1,8 @@
 /* -- nav */
+.nav-area {
+    display: block;
+}
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -11,12 +15,12 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 6px;
-    padding: 4px 8px;
+    padding: 4px;
     border: 1px solid var(--border-color-04);
 }
 
 .nav-item__media-area {
-    flex-grow: 1;
+
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,11 +1,13 @@
 /* again, i hear you asking - why not use sass . */
-@import url('./utilities/resets.css');
-@import url('./utilities/variables.css');
-@import url('./utilities/utils.css');
+@import url('./utilities/resets.css') layer(utils.resets);
+@import url('./utilities/variables.css') layer(utils.variables);
+@import url('./utilities/themes.css') layer(utils.themes); 
+@import url('./utilities/utils.css') layer(utils.utils);
 
-@import url('./base.css');
-@import url('./layout/header.css');
-@import url('./layout/nav.css');
-@import url('./layout/main.css');
-@import url('./layout/aside.css');
+@import url('./base.css') layer(base);
+
+@import url('./layout/header.css') layer(layout.header);
+@import url('./layout/nav.css') layer(layout.nav);
+@import url('./layout/main.css') layer(layout.main);
+@import url('./layout/aside.css') layer(layout.aside);
 
