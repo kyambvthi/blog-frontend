@@ -1,7 +1,21 @@
+/* -- /layout-area: layout-area */
+.layout-area {
+    display: flex
+}
+
+/* main-area */
 .main-area {
     display: block;
+    padding: .25rem;
 }
 
 .main {
     display: block;
+}
+
+/* -- /components: story-card */
+.story-card {
+    display: block;
+    padding: .25rem;
+    border: 1px solid var(--border-color-01);
 }
