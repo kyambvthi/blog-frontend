@@ -1,0 +1,56 @@
+/* story-card */
+.story-card {
+    display: block;
+    padding: .25rem;
+    border: 1px solid var(--border-color-04);
+}
+
+/* - context-area */
+.story-card__context-area {
+    display: block;
+    padding: .25rem;
+    margin-bottom: .25rem;
+    border: 1px solid var(--border-color-04);
+}
+
+.context-area__story-category {
+    font-weight: 700;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+.context-area__story-date {
+    font-variant: small-caps;
+}
+
+.context-area__story-author {
+    text-decoration: underline;
+}
+/* - content-area */
+.story-card__content-area {
+    display: block;
+    padding: .25rem;
+    margin-bottom: .25rem;
+    border: 1px solid var(--border-color-04);
+}
+
+.content-area__header {
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
+}
+
+/* - action-area */
+.story-card__action-area {
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    border: 1px solid var(--border-color-04);
+}
+
+.action-area__btn {
+    cursor: pointer;
+    display: block;
+    padding: .5rem;
+    margin-right: .2rem;
+    border: 1px solid var(--border-color-05);
+}
