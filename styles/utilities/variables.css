@@ -2,9 +2,10 @@
     /* -- border-colors: bd -- */
     --border-color-01: rgb(0, 0, 0);
     --border-color-02: rgb(50, 50, 50);
-    --border-color-04: rgb(100, 100, 100);
-    --border-color-05: rgb(150, 150, 150);
-    --border-color-06: rgb(200, 200, 200);
+    --border-color-03: rgb(100, 100, 100);
+    --border-color-04: rgb(150, 150, 150);
+    --border-color-05: rgb(200, 200, 200);
+    --border-color-06: rgb(250, 250, 250);
 
     /* -- background-colors: bg */
     --bg-color-01: rgb(30, 0, 0);

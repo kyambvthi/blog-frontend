@@ -2,18 +2,23 @@
 .story-card {
     display: block;
     padding: .25rem;
-    border: 1px solid var(--border-color-05);
-    margin-bottom: .5rem;
+    border: 1px solid var(--border-color-04);
+    margin-bottom: 8px;
 }
 
 /* - context-area */
 .story-card__context-area {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
     padding: .25rem;
     margin-bottom: .25rem;
-    border: 1px solid var(--border-color-06);
+    border: 1px solid var(--border-color-05);
 }
+
+.context-area__item {
+    display: block;
+    margin-right: 8px;
+ }
 
 .context-area__story-category {
     font-weight: 700;
@@ -33,7 +38,7 @@
     display: block;
     padding: .25rem;
     margin-bottom: .25rem;
-    border: 1px solid var(--border-color-06);
+    border: 1px solid var(--border-color-05);
 }
 
 .content-area__header {
@@ -46,7 +51,7 @@
     display: flex;
     align-items: center;
     padding: .25rem;
-    border: 1px solid var(--border-color-06);
+    border: 1px solid var(--border-color-05);
 }
 
 .action-area__btn {
@@ -54,5 +59,5 @@
     display: block;
     padding: .5rem;
     margin-right: .2rem;
-    border: 1px solid var(--border-color-06);
+    border: 1px solid var(--border-color-05);
 }
