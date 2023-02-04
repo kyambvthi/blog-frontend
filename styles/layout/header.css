@@ -5,8 +5,10 @@
     padding: 1px;
     width: 78px;
     border-right: 1px solid var(--border-color-04);
+    background: var(--bg-color-01);
 }
 
 .header {
+    position: fixed;
     display: block;
 }

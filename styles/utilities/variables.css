@@ -8,13 +8,7 @@
     --border-color-06: rgb(250, 250, 250);
 
     /* -- background-colors: bg */
-    --bg-color-01: rgb(30, 0, 0);
-    --bg-color-02: rgb(60, 40, 30);
-    --bg-color-01: rgb(90, 80, 30);
-    --bg-color-04: rgb(120, 120, 30);
-    --bg-color-05: rgb(150, 160, 30);
-    --bg-color-06: rgba(180, 200, 60);
-
+    --bg-color-01: rgba(240, 240, 240);
 }
 
 :root {

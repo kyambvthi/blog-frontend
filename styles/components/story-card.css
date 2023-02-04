@@ -8,8 +8,7 @@
 
 /* - context-area */
 .story-card__context-area {
-    display: flex;
-    justify-content: flex-start;
+    display: block;
     padding: .25rem;
     margin-bottom: .25rem;
     border: 1px solid var(--border-color-05);
@@ -27,10 +26,13 @@
 }
 
 .context-area__story-date {
-    font-variant: small-caps;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .context-area__story-author {
+    font-weight: 600;
+    font-variant: small-caps;
     text-decoration: underline;
 }
 /* - content-area */
